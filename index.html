@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>General Question</h1>
+
+        <div class="accordion">
+
+            <div class="box" onclick="toggle(0)">
+                <p>Do You Accept All Major Credit Cards?</p>
+                <div class="icon">
+                    <i class="ri-add-box-line plus"></i>
+                    <i class="ri-subtract-line minus"></i>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggle(1)">
+                <p>Do You Support Local Farmers?</p>
+                <div class="icon">
+                    <i class="ri-add-box-line plus"></i>
+                    <i class="ri-subtract-line minus"></i>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggle(2)">
+                <p>Do You Use Organic Ingredients?</p>
+                <div class="icon">
+                    <i class="ri-add-box-line plus"></i>
+                    <i class="ri-subtract-line minus"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

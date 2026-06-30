@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e1f4fc;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 90%;
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: aliceblue;
+  text-align: center;
+}
+
+.main h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.box {
+  position: relative;
+  padding: 15px;
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 12px;
+  background: #faf3e6;
+  cursor: pointer;
+  text-align: left;
+}
+
+.icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.minus {
+  display: none;
+}
+
+.answer {
+  margin-top: 10px;
+  font-size: 14px;
+  display: none;
+}
